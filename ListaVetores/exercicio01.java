@@ -9,7 +9,7 @@ public class Exercicio01 {
         int contB = 0;
 
         for(int i = 0; i < 20; i++) {
-            System.out.println("Digite o valor do " + (i+1) + "º elemento do vetor A:");
+            System.out.println("Digite o valor do " + (i+1) + "Âº elemento do vetor A:");
             a[i] = in.nextInt();
         }
 
@@ -17,7 +17,7 @@ public class Exercicio01 {
         for(int i = 0; i < 20; i++) {
             if(a[i] % 2 == 0) {
                 b[contB] = a[i];
-                System.out.println(contB + "° - " + b[contB] + " - Par");
+                System.out.println(contB + "Â° - " + b[contB] + " - Par");
                 contB++;
             }
         }
@@ -25,7 +25,7 @@ public class Exercicio01 {
         for(int i = 0; i < 20; i++) {
             if(a[i] % 2 != 0) {
                 b[contB] = a[i];
-                System.out.println(contB + "° - " + b[contB] + " - Ímpar");
+                System.out.println(contB + "Â° - " + b[contB] + " - Ãmpar");
                 contB++;
             }
         }
