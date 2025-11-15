@@ -16,10 +16,10 @@ public class Exercicio09 {
         for (contA = 0; contA < 10; contA++) {
             s = contA + 1;
 
-            System.out.println("Digite o " + s + "° valor do vetor A");
+            System.out.println("Digite o " + s + "Â° valor do vetor A");
             a[contA] = in.nextInt();
 
-            System.out.println("Digite o " + s + "° valor do vetor B");
+            System.out.println("Digite o " + s + "Â° valor do vetor B");
             b[contA] = in.nextInt();
 
             System.out.println(" ");
@@ -36,14 +36,14 @@ public class Exercicio09 {
         }
 
         // Exibir C
-        System.out.println("\nVetor C (Interseção)");
+        System.out.println("\nVetor C (InterseÃ§Ã£o)");
 
         if (contC == 0) {
             System.out.println("Nenhum elemento em comum encontrado");
         } else {
             for (contA = 0; contA < contC; contA++) {
                 s = contA + 1;
-                System.out.println("O valor do " + s + "º elemento do vetor C é: " + c[contA]);
+                System.out.println("O valor do " + s + "Âº elemento do vetor C Ã©: " + c[contA]);
             }
         }
 
