@@ -1,6 +1,4 @@
 
-	EXERCICIO 4
-
 import java.util.Scanner;
 
 public class Exercicio4 {
@@ -42,5 +40,6 @@ public class Exercicio4 {
         in.close();
     }
 }
+
 
 
