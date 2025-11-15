@@ -8,13 +8,13 @@ public class Exercicio06 {
         a = new int[11];
         potencia = 1;
 
-        System.out.println("Vetor A (Potências de 2)");
+        System.out.println("Vetor A (PotÃªncias de 2)");
 
         for (cont = 0; cont < 11; cont++) {
             a[cont] = potencia;
             s = cont + 1;
 
-            System.out.println(s + "º (A[" + cont + "]) = " + a[cont]);
+            System.out.println(s + "Âº (A[" + cont + "]) = " + a[cont]);
             potencia = potencia * 2;
         }
 
