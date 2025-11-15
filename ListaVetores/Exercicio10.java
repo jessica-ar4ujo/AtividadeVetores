@@ -1,9 +1,4 @@
-
-	 EXERCICIO 10 
-package vetores;
-
 import java.util.Scanner;
-
 public class Exercicio10 {
     public static void main(String[] args) {
         Scanner in= new Scanner(System.in);
@@ -17,13 +12,13 @@ public class Exercicio10 {
 
         
         for(i = 0; i < 10; i++) {
-            System.out.println("Digite o " + (i+1) + "° valor do vetor A:");
+            System.out.println("Digite o " + (i+1) + "Â° valor do vetor A:");
             a[i] = entrada.nextInt();
         }
 
 
         for(i = 0; i < 10; i++) {
-            System.out.println("Digite o " + (i+1) + "° valor do vetor B:");
+            System.out.println("Digite o " + (i+1) + "Â° valor do vetor B:");
             b[i] = entrada.nextInt();
         }
 
@@ -32,7 +27,7 @@ public class Exercicio10 {
        
         for(i = 0; i < 10; i++) {
 
-            int achou = 0; // 0 = não achou, 1 = achou
+            int achou = 0; // 0 = nÃ£o achou, 1 = achou
 
            
             for(j = 0; j < 10; j++) {
@@ -49,9 +44,9 @@ public class Exercicio10 {
         }
 
       
-        System.out.println("\nVetor C (elementos de A que não estão em B):");
+        System.out.println("\nVetor C (elementos de A que nÃ£o estÃ£o em B):");
         if(contC == 0) {
-            System.out.println("Nenhum elemento — todos estavam em B.");
+            System.out.println("Nenhum elemento â€” todos estavam em B.");
         } else {
             for(i = 0; i < contC; i++) {
                 System.out.print(C[i] + " ");
@@ -61,4 +56,5 @@ public class Exercicio10 {
         in.close();
     }
 }
+
 
