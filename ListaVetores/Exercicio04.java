@@ -13,7 +13,7 @@ public class Exercicio4 {
 
         // Entrada dos valores
         for (int i = 0; i < TAM; i++) {
-            System.out.print("Digite o " + (i + 1) + "º valor do vetor A: ");
+            System.out.print("Digite o " + (i + 1) + "Âº valor do vetor A: ");
             a[i] = in.nextInt();
         }
 
@@ -24,7 +24,7 @@ public class Exercicio4 {
             int valor = a[i];
 
             System.out.println("Elemento A[" + i + "] = " + valor);
-            System.out.print("Pares de 0 até " + valor + ": ");
+            System.out.print("Pares de 0 atÃ© " + valor + ": ");
 
             for (int j = 0; j <= valor; j++) {
                 if (j % 2 == 0) {
