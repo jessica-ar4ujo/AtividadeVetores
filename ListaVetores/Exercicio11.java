@@ -1,6 +1,3 @@
-
-	EXERCICIO 11
-
 import java.util.Scanner;
  
 public class Exercicio11 {
@@ -39,9 +36,9 @@ public class Exercicio11 {
         }
  
         if(cont > 0) {
-            System.out.println("O valor " + x + " EST¡ no vetor.");
+            System.out.println("O valor " + x + " EST√Å no vetor.");
         } else {
-            System.out.println("O valor " + x + " N√O est· no vetor.");
+            System.out.println("O valor " + x + " N√ÉO est√° no vetor.");
         }
  
     }
@@ -49,5 +46,6 @@ public class Exercicio11 {
 	
 	    
 	}
+
 
 
