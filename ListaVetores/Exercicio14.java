@@ -1,5 +1,3 @@
-
-	EXERCICIO 14
 import java.util.Scanner;
  
 public class Exercicio14 {
@@ -16,7 +14,7 @@ public class Exercicio14 {
             if (a[i] % 2 == 0) {
                 b[i] = 1; // par
             } else {
-                b[i] = 0; // ímpar
+                b[i] = 0; // Ã­mpar
             }
         }
  
@@ -28,3 +26,4 @@ public class Exercicio14 {
         ler.close();
     }
 }
+
